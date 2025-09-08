@@ -1,0 +1,1 @@
+import{j as e}from"./index-CG68fR17.js";import{f as t}from"./index-6UZBR6t5.js";function s(){return e.jsx("div",{className:"w-full h-full flex items-center justify-center",children:e.jsx(t,{className:"w-8 h-8 text-orange-500"})})}export{s as default};
