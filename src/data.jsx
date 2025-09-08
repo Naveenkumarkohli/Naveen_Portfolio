@@ -87,7 +87,6 @@ const projects_skills = {
             techStack: ['Java', 'Spring Boot', 'JavaScript', 'Gemini API', 'REST APIs', 'Bootstrap'],
             demo: 'https://ai-chatbot-k605.onrender.com',
             source: 'https://github.com/Naveenkumarkohli/AI_CHATBOT',
-            link: 'https://ai-chatbot-k605.onrender.com',
         },
     },
     skills: [
