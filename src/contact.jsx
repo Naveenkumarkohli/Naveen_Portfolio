@@ -149,14 +149,14 @@ const Contact = () => {
               Feel free to reach out using the contact form below. I make it a priority to respond to all inquiries promptly, so you can expect to hear back from me soon.
             </div>
             <div className='w-full my-3 px-4'>
-              <div className='max-w-xs mx-auto grid grid-cols-4 gap-3 justify-items-center'>
+              <div className='flex flex-wrap justify-center gap-4'>
                 {socials.map((social, index) => (
                   <a 
                     key={index} 
                     href={social.link} 
                     target={social.target || '_blank'}
                     rel='noreferrer noopener'
-                    className={`w-12 h-12 rounded-full flex items-center justify-center ${social.color} hover:opacity-90 transition-all hover:scale-110`}
+                    className={`w-12 h-12 rounded-full flex-shrink-0 flex items-center justify-center ${social.color} hover:opacity-90 transition-all hover:scale-110`}
                     title={social.name}
                   >
                     <img 
