@@ -221,11 +221,11 @@ const projects_skills = {
 
 const experience = [
     {
-        company: 'Topnotch Solutions',
+        company: 'Pixelwind Technologies',
         role: 'Java Full Stack Developer Intern',
         location: 'Remote',
         duration: 'Dec 2024 - Apr 2025',
-        image: '/images/topnotch.png',
+        image: '/Naveen_Portfolio/images/topnotch.png',
         link: '#',
         description: 'Built a real-time Online Food Ordering System (team project) using Spring Boot, REST APIs, Hibernate/JPA, and MySQL for seamless user experience and efficient backend operations.'
     }
@@ -240,7 +240,7 @@ const education = [
         board: '',
         grade: 'CGPA: 8.67',
         duration: '2022 - 2025',
-        image: '/images/gmrit.png',
+        image: '/Naveen_Portfolio/images/gmrit.png',
         description: 'Completed Bachelor of Technology in Computer Science and Engineering with specialization in Artificial Intelligence and Data Science.',
         link: 'https://gmrit.edu/'
     },
@@ -252,7 +252,7 @@ const education = [
         board: '',
         grade: 'Percentage: 90%',
         duration: '2019 - 2022',
-        image: '/images/jvn.png',
+        image: '/Naveen_Portfolio/images/jvn.png',
         description: 'Completed Diploma in Electrical and Electronics Engineering with excellent academic performance.',
         link: 'https://mbtsgovtpolyguntur.ac.in/'
     },
@@ -264,7 +264,7 @@ const education = [
         board: 'Board of Secondary Education, AP',
         grade: 'GPA: 10.0',
         duration: '2019',
-        image: '/images/jvn1.png',
+        image: '/Naveen_Portfolio/images/jvn1.png',
         description: 'Completed secondary education with outstanding academic performance.',
         link: 'https://schools.org.in/srikakulam/28110400723/svidya-niketan-high-school-rajam.html'
     },
