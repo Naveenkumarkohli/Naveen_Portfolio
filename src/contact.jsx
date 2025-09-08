@@ -23,7 +23,7 @@ const socials = [
   },
   {
     name: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/naveen-kumar-36/',
+    link: 'https://www.linkedin.com/in/koyyana-naveen-kumar-220b68255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     icon: '/Naveen_Portfolio/images/linkedin.svg',
     color: 'bg-blue-700 text-white hover:bg-blue-800',
     iconClass: 'w-5 h-5',
