@@ -221,7 +221,7 @@ const projects_skills = {
 
 const experience = [
     {
-        company: 'Pixelwind Technologies',
+        company: 'Topnotch Solutions',
         role: 'Java Full Stack Developer Intern',
         location: 'Remote',
         duration: 'Dec 2024 - Apr 2025',
@@ -240,7 +240,7 @@ const education = [
         board: '',
         grade: 'CGPA: 8.67',
         duration: '2022 - 2025',
-        image: '/images/GMRIT_Logo.jpg',
+        image: '/images/gmrit.png',
         description: 'Completed Bachelor of Technology in Computer Science and Engineering with specialization in Artificial Intelligence and Data Science.',
         link: 'https://gmrit.edu/'
     },
