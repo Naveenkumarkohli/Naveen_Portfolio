@@ -1,6 +1,6 @@
-import Me from './asserts/me.jpg'
-import Smile from './asserts/smile.svg'
-import aboutIcon from './asserts/about_icon.svg'
+import Me from '@/asserts/me.jpg'
+import Smile from '@/asserts/smile.svg'
+import aboutIcon from '@/asserts/about_icon.svg'
 import { about } from './data';
 
 function About(){

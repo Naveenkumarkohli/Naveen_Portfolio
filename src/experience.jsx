@@ -1,4 +1,4 @@
-import ExperienceImage from './asserts/experience.svg'
+import ExperienceImage from '@/asserts/experience.svg'
 import { experience } from './data';
 
 const experiences = experience.map((exp, index) => {

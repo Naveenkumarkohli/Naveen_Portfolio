@@ -11,6 +11,7 @@ import Experience from './experience.jsx';
 import Accounts from './Accounts.jsx';
 import Contact from './contact.jsx';
 import TestComponent from './TestComponent';
+import './index.css';
 
 function AppContent() {
   const [showScrollToTop, setShowScrollToTop] = useState(false);

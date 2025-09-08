@@ -1,4 +1,4 @@
-import icon from './asserts/icon_rb.png';
+import icon from '@/asserts/icon_rb.png';
 import { useState, useEffect } from 'react';
 
 function Nav() {

@@ -1,4 +1,4 @@
-import EducationImage from './asserts/education.svg';
+import EducationImage from '@/asserts/education.svg';
 import { FaLocationDot } from "react-icons/fa6";
 import { SlBadge } from "react-icons/sl";
 import { FaGraduationCap, FaExternalLinkAlt } from "react-icons/fa";

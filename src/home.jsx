@@ -1,6 +1,6 @@
-import landingImage from './asserts/landingImage.webp'
-import star from './asserts/star.svg'
-import wavingBot from './asserts/robo_wave.gif'
+import landingImage from '@/asserts/landingImage.webp'
+import star from '@/asserts/star.svg'
+import wavingBot from '@/asserts/robo_wave.gif'
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import ReactTypingEffect from 'react-typing-effect'
 import { home } from './data';

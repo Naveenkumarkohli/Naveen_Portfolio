@@ -1,14 +1,14 @@
 import { useState, useRef } from 'react';
 import { toast } from 'react-toastify';
 import emailjs from '@emailjs/browser';
-import ContactImage from './asserts/contact.svg';
-import MeRB from './asserts/icon_rb.png';
+import ContactImage from '@/asserts/contact.svg';
+import MeRB from '@/asserts/icon_rb.png';
 
 const socials = [
   {
     name: 'Email',
     link: 'https://mail.google.com/mail/?view=cm&fs=1&to=naveenkumarkohli06@gmail.com',
-    icon: '/images/gmail.svg',
+    icon: '/Naveen_Portfolio/images/gmail.svg',
     color: 'bg-red-100 text-red-600 hover:bg-red-200',
     iconClass: 'w-5 h-5',
     target: '_blank'
@@ -16,15 +16,23 @@ const socials = [
   {
     name: 'Facebook',
     link: 'https://www.facebook.com/naveen.msd.336',
-    icon: '/images/fb.svg',
+    icon: '/Naveen_Portfolio/images/fb.svg',
     color: 'bg-blue-600 text-white hover:bg-blue-700',
+    iconClass: 'w-5 h-5',
+    target: '_blank'
+  },
+  {
+    name: 'LinkedIn',
+    link: 'https://www.linkedin.com/in/naveen-kumar-36/',
+    icon: '/Naveen_Portfolio/images/linkedin.svg',
+    color: 'bg-blue-700 text-white hover:bg-blue-800',
     iconClass: 'w-5 h-5',
     target: '_blank'
   },
   {
     name: 'Twitter',
     link: 'https://x.com/Crazy_Killer18',
-    icon: '/images/twitter.svg',
+    icon: '/Naveen_Portfolio/images/twitter.svg',
     color: 'bg-black text-white hover:bg-gray-800',
     iconClass: 'w-5 h-5',
     target: '_blank'
@@ -32,7 +40,7 @@ const socials = [
   {
     name: 'Instagram',
     link: 'https://www.instagram.com/crazy_killer_1818?igsh=MWZrYWJuaGt3dG9mMA==',
-    icon: '/images/insta.svg',
+    icon: '/Naveen_Portfolio/images/insta.svg',
     color: 'bg-gradient-to-r from-pink-500 to-yellow-500 text-white hover:from-pink-600 hover:to-yellow-600',
     iconClass: 'w-5 h-5',
     target: '_blank'
