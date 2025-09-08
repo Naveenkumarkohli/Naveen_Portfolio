@@ -82,8 +82,8 @@ const projects_skills = {
             <br />
             <p>This project showcases full-stack development skills, API integration, and practical application of AI in conversational interfaces. The chatbot demonstrates proficiency in both backend and frontend technologies while leveraging cutting-edge AI capabilities.</p>
             `,
-            thumbnail: '/Naveen_Portfolio/images/ai_chatbot.png',
-            images: ['/Naveen_Portfolio/images/ai_chatbot.png'],
+            thumbnail: process.env.NODE_ENV === 'production' ? '/Naveen_Portfolio/images/ai_chatbot.png' : '/images/ai_chatbot.png',
+            images: [process.env.NODE_ENV === 'production' ? '/Naveen_Portfolio/images/ai_chatbot.png' : '/images/ai_chatbot.png'],
             techStack: ['Java', 'Spring Boot', 'JavaScript', 'Gemini API', 'REST APIs', 'Bootstrap'],
             demo: 'https://ai-chatbot-k605.onrender.com',
             source: 'https://github.com/Naveenkumarkohli/AI_CHATBOT',
